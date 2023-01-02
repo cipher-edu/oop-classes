@@ -1,10 +1,13 @@
 class Lang:
     def salom(self):
+        print("salomcha")
         raise NotImplementedError("klasda hatolik mavjud")
+        
 
 class Franch(Lang):
-    def salom(self):
-        print("Bonjour")
+    # def salom(self):
+    #     print("Bonjour")
+    pass
 
 class China(Lang):
     def salom(self):
